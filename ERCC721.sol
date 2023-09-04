@@ -31,8 +31,12 @@ contract MyToken is ERC721, ERC721URIStorage, Ownable {
     {
         return super.supportsInterface(interfaceId);
     }
-
- 
-       
-    
 }
+
+
+
+/* json {
+  "description": "Friendly OpenSea Creature",
+  "image": "https://ipfs.io/ipfs/Qmbphcj5wAh1AHPRaLyuKhHQMMQjJBs8wcUgUaAhzLkw9L",
+  "name": "df"
+} */
